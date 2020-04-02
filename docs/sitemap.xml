@@ -3,74 +3,74 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://example.com/docs/example/intro1/</loc>
+    <loc>https://cpa.github.io/hugo-test/docs/example/intro1/</loc>
   </url>
   
   <url>
-    <loc>https://example.com/docs/example/</loc>
+    <loc>https://cpa.github.io/hugo-test/docs/example/</loc>
   </url>
   
   <url>
-    <loc>https://example.com/blog/</loc>
+    <loc>https://cpa.github.io/hugo-test/blog/</loc>
     <lastmod>2020-04-02T17:25:10+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/</loc>
+    <loc>https://cpa.github.io/hugo-test/</loc>
     <lastmod>2020-04-02T17:25:10+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/blog/2020-04-02-test/</loc>
+    <loc>https://cpa.github.io/hugo-test/blog/2020-04-02-test/</loc>
     <lastmod>2020-04-02T17:25:10+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/docs/example/hidden/</loc>
+    <loc>https://cpa.github.io/hugo-test/docs/example/hidden/</loc>
   </url>
   
   <url>
-    <loc>https://example.com/docs/shortcodes/</loc>
+    <loc>https://cpa.github.io/hugo-test/docs/shortcodes/</loc>
   </url>
   
   <url>
-    <loc>https://example.com/docs/shortcodes/buttons/</loc>
+    <loc>https://cpa.github.io/hugo-test/docs/shortcodes/buttons/</loc>
   </url>
   
   <url>
-    <loc>https://example.com/docs/shortcodes/columns/</loc>
+    <loc>https://cpa.github.io/hugo-test/docs/shortcodes/columns/</loc>
   </url>
   
   <url>
-    <loc>https://example.com/docs/shortcodes/expand/</loc>
+    <loc>https://cpa.github.io/hugo-test/docs/shortcodes/expand/</loc>
   </url>
   
   <url>
-    <loc>https://example.com/docs/shortcodes/hints/</loc>
+    <loc>https://cpa.github.io/hugo-test/docs/shortcodes/hints/</loc>
   </url>
   
   <url>
-    <loc>https://example.com/docs/shortcodes/katex/</loc>
+    <loc>https://cpa.github.io/hugo-test/docs/shortcodes/katex/</loc>
   </url>
   
   <url>
-    <loc>https://example.com/docs/shortcodes/mermaid/</loc>
+    <loc>https://cpa.github.io/hugo-test/docs/shortcodes/mermaid/</loc>
   </url>
   
   <url>
-    <loc>https://example.com/docs/shortcodes/tabs/</loc>
+    <loc>https://cpa.github.io/hugo-test/docs/shortcodes/tabs/</loc>
   </url>
   
   <url>
-    <loc>https://example.com/categories/</loc>
+    <loc>https://cpa.github.io/hugo-test/categories/</loc>
   </url>
   
   <url>
-    <loc>https://example.com/docs/</loc>
+    <loc>https://cpa.github.io/hugo-test/docs/</loc>
   </url>
   
   <url>
-    <loc>https://example.com/tags/</loc>
+    <loc>https://cpa.github.io/hugo-test/tags/</loc>
   </url>
   
 </urlset>
