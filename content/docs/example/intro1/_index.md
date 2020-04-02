@@ -81,7 +81,7 @@ considérés comme bons élèves en la matière (par exemple : les
 en moyenne dans l’UE et 72% pour le Royaume-Uni qui obtient le
 meilleur score (voir ci-dessous).
 
-![Classement des pays européens en fonction de l’accessibilité des services publics en ligne - Source : DG Connect](image004.jpg)
+![Classement des pays européens en fonction de l’accessibilité des services publics en ligne - Source : DG Connect](/image004.jpg)
 
 
 Selon le Conseil national consultatif des personnes handicapées
