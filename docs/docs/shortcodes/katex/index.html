@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="KaTeX KaTeX shortcode let you render math typesetting in markdown document. See KaTeX
+Example {{&lt; katex [display] [class=&#34;text-center&#34;] &gt;}} x = \begin{cases} a &amp;\text{if } b \\ c &amp;\text{if } d \end{cases} {{&lt; /katex &gt;}}     \( x = \begin{cases} a &\text{if } b \\ c &\text{if } d \end{cases} \)    Display Mode Example Here is some inline example: \(\pi(x)\)  , rendered in the same line."><meta property="og:title" content="" />
+<meta property="og:description" content="KaTeX KaTeX shortcode let you render math typesetting in markdown document. See KaTeX
+Example {{&lt; katex [display] [class=&#34;text-center&#34;] &gt;}} x = \begin{cases} a &amp;\text{if } b \\ c &amp;\text{if } d \end{cases} {{&lt; /katex &gt;}}     \( x = \begin{cases} a &\text{if } b \\ c &\text{if } d \end{cases} \)    Display Mode Example Here is some inline example: \(\pi(x)\)  , rendered in the same line." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://example.com/docs/shortcodes/katex/" />
+
+<title>Katex | CNNum - Accessibilité numérique</title>
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+
+
+<link rel="stylesheet" href="/book.min.eedf55b441b0f687aac5075ac4c9be4cce853129d3604f15759d1192baebc34d.css" integrity="sha256-7t9VtEGw9oeqxQdaxMm&#43;TM6FMSnTYE8VdZ0Rkrrrw00=">
+
+
+<script defer src="/fr.search.min.f6bb83cbb91868b6bb095cc5bfdf59d9dcfcf02c67317668c3de70fddeae0033.js" integrity="sha256-9ruDy7kYaLa7CVzFv99Z2dz88CxnMXZow95w/d6uADM="></script>
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body>
+  <input type="checkbox" class="hidden" id="menu-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      
+  <nav>
+<h2 class="book-brand">
+  <a href="/"><span>CNNum - Accessibilité numérique</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Rechercher" aria-label="Rechercher" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+
+
+
+
+
+ 
+  
+    
+
+
+
+
+  
+  <ul>
+    
+      
+        
+
+  <li class="book-section-flat" >
+    
+
+  
+  <a href="/docs/example/" class="">L’accessibilité numérique, une nécessité pour garantir la légalité et l&#39;égalité à l&#39;ère numérique</a>
+  
+
+
+    
+
+
+
+
+  
+  <ul>
+    
+      
+        
+
+  <li>
+    
+
+  
+  <a href="/docs/example/intro1/" class="">CITOYENNETÉ - Assurer l’accès de tous les usagers aux services publics numériques</a>
+  
+
+
+    
+
+
+
+
+  
+  <ul>
+    
+  </ul>
+  
+
+
+
+  </li>
+
+
+      
+    
+  </ul>
+  
+
+
+
+  </li>
+
+
+      
+    
+      
+        
+
+  <li class="book-section-flat" >
+    
+
+  
+  <span>Shortcodes</span>
+  
+
+
+    
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+
+  
+  <a href="/docs/shortcodes/buttons/" class="">Buttons</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/shortcodes/columns/" class="">Columns</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/shortcodes/expand/" class="">Expand</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/shortcodes/hints/" class="">Hints</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/shortcodes/katex/" class="active">Katex</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/shortcodes/mermaid/" class="">Mermaid</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/shortcodes/tabs/" class="">Tabs</a>
+  
+
+</li>
+      
+    
+  </ul>
+  
+
+
+
+  </li>
+
+
+      
+    
+  </ul>
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Katex</strong>
+
+  <label for="toc-control">
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+  </label>
+</div>
+
+
+  
+    <input type="checkbox" class="hidden" id="toc-control" />
+    <aside class="hidden clearfix">
+      
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#katex">KaTeX</a>
+      <ul>
+        <li><a href="#example">Example</a></li>
+        <li><a href="#display-mode-example">Display Mode Example</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+    </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="katex">KaTeX</h1>
+<p>KaTeX shortcode let you render math typesetting in markdown document. See 
+  <a href="https://katex.org/">KaTeX</a></p>
+<h2 id="example">Example</h2>
+<div class="book-columns flex flex-wrap">
+  
+  <div class="flex-even markdown-inner">
+    <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-latex" data-lang="latex">{{&lt; katex [display] [class=&#34;text-center&#34;]  &gt;}}
+x = <span style="color:#66d9ef">\begin</span>{cases}
+   a &amp;<span style="color:#66d9ef">\text</span>{if } b <span style="color:#66d9ef">\\</span>
+   c &amp;<span style="color:#66d9ef">\text</span>{if } d
+<span style="color:#66d9ef">\end</span>{cases}
+{{&lt; /katex &gt;}}
+</code></pre></div>
+  </div>
+  
+  <div class="flex-even markdown-inner">
+    <link rel="stylesheet" href="/katex/katex.min.css">
+<script defer src="/katex/katex.min.js"></script>
+<script defer src="/katex/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+<span class="katex">
+  \(
+x = \begin{cases}
+   a &\text{if } b \\
+   c &\text{if } d
+\end{cases}
+\)
+</span>
+  </div>
+  
+</div>
+
+<h2 id="display-mode-example">Display Mode Example</h2>
+<p>Here is some inline example: 
+
+<span class="katex">
+  \(\pi(x)\)
+</span>
+, rendered in the same line. And below is <code>display</code> example, having <code>display: block</code>
+
+
+<span class="katex">
+  \[
+x = \begin{cases}
+   a &\text{if } b \\
+   c &\text{if } d
+\end{cases}
+\]
+</span>
+
+Text continues here.</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex justify-between">
+
+
+
+
+
+</div>
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#katex">KaTeX</a>
+      <ul>
+        <li><a href="#example">Example</a></li>
+        <li><a href="#display-mode-example">Display Mode Example</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+ 
+    </aside>
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
