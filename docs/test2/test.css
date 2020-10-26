@@ -1,0 +1,128 @@
+/* #983275, #811D5E, #FD2F24, #FF6F01, #FED800 */
+body {
+    background-color: rgba(87,112,190,0.1);
+    margin: 0;
+    padding: 0;
+}
+
+::selection {
+    background: #000091;
+    background: #E1000F;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 40px;
+    margin-bottom: 5px;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Oswald";
+}
+
+h1 {
+    color: #958B62;
+    font-variant: small-caps;
+    font-size: 2rem;
+}
+h2 {
+    color: #91AE4F;
+    font-variant: small-caps;
+    font-size: 1.8rem;
+}
+h3 {
+    color: #169B62;
+    font-variant: small-caps;
+    font-size: 1.6rem;
+}
+h4 {
+    color: #983275;
+    font-size: 1.4rem;
+}
+
+p,li,ul,ol {
+    font-size: 1.1rem;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+    margin-top: 1rem;
+}
+
+em {
+    font-style: normal;
+    background: #FF9940;
+}
+
+strong {
+    font-style: italic;
+    font-weight: normal;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+
+#boxsynthese {
+    background-color: rgba(255,234,104);
+    margin: 0;
+    padding: 0;
+    display: grid;
+}
+
+#synthese {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.content {
+    font-family: "Merriweather";
+    line-height: 2rem;
+    width: 50%;
+    text-align: justify;
+    letter-spacing: normal;
+    word-spacing: normal;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50em;
+}
+
+.color-title {
+    background-color: #958B62;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#welcome {
+    min-height: 100%;
+    background-color: rgba(255,234,104);    
+    background-image: url("test1.jpg");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: grid;
+}
+
+#title {
+    font-family: "Merriweather";
+    font-size: 2rem;
+    line-height: 1.5;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-left: 35%;
+    padding-bottom: 5%;
+}
+
+.header img {
+    display:inline;
+    background-color: #FFFFFF;
+    max-height: 100%;
+    width: 100%
+	   height: auto;
+}
